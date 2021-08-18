@@ -1,0 +1,48 @@
+/* основной #212121 */
+/* второстепенный #2196F3 */
+/* дополнительный #fff */
+/* задний фон #E5E5E5; */
+:root {
+  --brand-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #e5e5e5;
+}
+
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: var(--brand-color);
+  background-color: var(--background-color);
+}
+
+ul {
+  list-style: none;
+}
+/* Header */
+.logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--accent-color);
+}
+.logo-navigation {
+  color: #000;
+}
+.site-nav a {
+  color: var(--brand-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.contact-header {
+  color: #757575;
+}
+
+.contact-header:hover,
+.contact-header:focus {
+  color: var(--accent-color);
+}
