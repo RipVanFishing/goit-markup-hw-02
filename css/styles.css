@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--brand-color);
   background-color: var(--background-color);
 }
@@ -24,13 +24,16 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: var(--accent-color);
 }
 .logo-navigation {
   color: #000;
 }
 .site-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
   color: var(--brand-color);
 }
 .site-nav a:hover,
@@ -38,7 +41,11 @@ ul {
   color: var(--accent-color);
 }
 
-.contact-header {
+[href='mailto:'],
+[href='tel:'] {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
   color: #757575;
 }
 
@@ -46,3 +53,4 @@ ul {
 .contact-header:focus {
   color: var(--accent-color);
 }
+.filter inherited;
