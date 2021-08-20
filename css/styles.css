@@ -41,7 +41,7 @@ ul {
   color: var(--accent-color);
 }
 
-  .contact-header a {
+.contact-header a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
@@ -52,22 +52,19 @@ ul {
   color: var(--accent-color);
 }
 
-
-}
-
-}
 /* Main prortfolio */
 
 .filter-button {
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  ext-align: center;
-letter-spacing: 0.03em;
-var(--brand-color);
-background-color:#F5F4FA;
-cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  cursor: pointer;
+  color: var(--brand-color);
 }
 
 .filter-button:hover,
@@ -77,43 +74,43 @@ cursor: pointer;
 }
 
 .project p {
-  color:#757575;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
+  color: #757575;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 .project h2 {
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 /* Footer */
 footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 .logo-navigation-footer {
-color: #ffffff;
+  color: #ffffff;
 }
 .contact-footer p {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .contact-footer a {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contact-footer a:focus,
@@ -122,77 +119,75 @@ color: rgba(255, 255, 255, 0.6);
 }
 /* Main Studio */
 .hero {
-  background: #2F303A;
+  background: #2f303a;
 }
 .hero-title {
   font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-color: #FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 .hero-button {
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.87;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: #ffffff;
   cursor: pointer;
 }
 .properties h3 {
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .properties p {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #757575;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .about-us h2 {
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 .team h2 {
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 .team h3 {
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .team p {
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
-color: #757575;
-
-
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
