@@ -117,3 +117,78 @@ color: rgba(255, 255, 255, 0.6);
 
 }
 /* Main Studio */
+.hero {
+  background: #2F303A;
+}
+.hero-title {
+  font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+.hero-button {
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+.properties h3 {
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.properties p {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.about-us h2 {
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+}
+
+.team h2 {
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+}
+.team h3 {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+.team p {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #757575;
+
+
+}
