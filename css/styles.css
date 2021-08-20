@@ -114,7 +114,11 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
 
+.contact-footer a:focus,
+.contact-footer a:hover {
+  color: var(--accent-color);
 }
 /* Main Studio */
 .hero {
