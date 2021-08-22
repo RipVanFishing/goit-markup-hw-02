@@ -159,11 +159,13 @@ footer {
   color: var(--header-background-color);
   cursor: pointer;
 }
+
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--accent-background-color);
-  color: var(--brand-color);
+  background-color: #188ce8;
+  color: var(--header-background-color);
 }
+
 .section-properties {
   background-color: var(--background-color);
 }
